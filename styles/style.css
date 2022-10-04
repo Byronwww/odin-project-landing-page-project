@@ -32,9 +32,11 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: 50px;
-    border-color: #3882F6;
+    border-color: white;
     border-style: solid; 
     border-radius: 10px; 
+    background-color: darkgray;   
+    padding: 20px; 
 }
 
 
