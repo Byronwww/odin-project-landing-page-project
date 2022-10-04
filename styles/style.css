@@ -70,6 +70,12 @@ body{
     justify-content: center;    
 }
 
+.row-container-2-images img{
+    border-color: #3882F6;
+    border-style: solid; 
+    border-radius: 10px;
+}
+
 .row-container-3{
     display: flex;
     background-color: #E5E7EB;
@@ -90,7 +96,6 @@ body{
     font-style: normal;
 }
 
-
 .row-container-4{
     display: flex;
     justify-content: center;    
@@ -105,12 +110,10 @@ body{
     border-radius: 15px;
 }
 
-
 .message-box-text{  
     display: flex; 
     flex-direction: row;
 }
-
 
 .message-box-button button{
     display:flex;
@@ -125,7 +128,6 @@ body{
     padding-right: 20px;
     font-weight: 800;
 }
-
 
 .footer{
     display: flex;
