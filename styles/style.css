@@ -71,11 +71,17 @@ body{
 }
 
 .row-container-3{
+    display: flex;
     background-color: #E5E7EB;
     font-style: italic;
     padding: 25px;
     padding-left: 100px;    
     padding-right: 100px;    
+    justify-content: center;   
+}
+
+.row-container-3-text{
+    max-width: 1024px    
 }
 
 .quote-attrib{
