@@ -26,7 +26,6 @@ body{
 }
 
 .header-right-links a{
-    display: flex;  
     size: 18px;
     text-decoration: none;
     color: #E5E7EB;  
@@ -121,6 +120,8 @@ body{
 }
 
 .message-box{
+    display: flex;    
+    justify-content: space-between;
     flex-direction: column;    
     background-color: #3882F6;
     color: white;
