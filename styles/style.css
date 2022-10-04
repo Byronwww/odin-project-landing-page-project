@@ -43,7 +43,6 @@ body{
     padding-bottom: 50px;
 }
 
-
 .row-container-2-header h3{
     size: 36px;
     font-weight: bolder;
@@ -54,7 +53,7 @@ body{
     background-color: #3882F6;
     color:white;
     border: #E5E7EB;
-    border-radius: 10%;
+    border-radius: 10px;
     padding:5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -97,6 +96,7 @@ body{
     color: white;
     margin:25px;
     padding: 25px;
+    border-radius: 15px;
 }
 
 
@@ -106,12 +106,19 @@ body{
 }
 
 
-.message-box-button{
+.message-box-button button{
     display:flex;
     background-color: #3882F6;
+    color:white;
+    border-color: #E5E7EB;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 800;
 }
-
-
 
 
 .footer{
