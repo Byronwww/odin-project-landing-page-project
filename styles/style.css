@@ -117,21 +117,25 @@ body{
 
 .row-container-4{
     display: flex;
-    justify-content: center;    
+    justify-content: center;       
 }
 
 .message-box{
-    flex-direction: column;
+    flex-direction: column;    
     background-color: #3882F6;
     color: white;
     margin:25px;
-    padding: 25px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 15px;   
 }
 
 .message-box-text{  
-    display: flex; 
-    flex-direction: row;
+
+}
+
+
+.message-box-button{
+    
 }
 
 .message-box-button button{
