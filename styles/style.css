@@ -18,7 +18,8 @@ body{
     display: flex;   
     flex-shrink: 0;  
     size: 24px;
-    color:#F9FAF8;     
+    color:#F9FAF8;
+         
 }
 
 .header-right-links{
@@ -27,7 +28,7 @@ body{
 
 .top-right-image{
     display: flex;  
-    flex-grow: 1;
+    flex-grow: 0;
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
@@ -39,7 +40,6 @@ body{
     padding: 20px; 
 }
 
-
 .header-right-links a{
     size: 18px;
     text-decoration: none;
@@ -49,7 +49,7 @@ body{
 
 .top-content-container{
     display: flex;    
-    justify-content:space-between;
+    justify-content:center;
     background-color: #1F2937;        
     color:#F9FAF8; 
     padding-left: 50px;
