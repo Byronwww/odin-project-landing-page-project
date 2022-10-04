@@ -15,13 +15,14 @@ body{
 }
 
 .header-logo{
-    display: flex;     
+    display: flex;   
+    flex-shrink: 0;  
     size: 24px;
     color:#F9FAF8;     
 }
 
 .header-right-links{
-    display: flex;      
+    display: flex;     
 }
 
 .header-right-links a{
@@ -34,21 +35,19 @@ body{
 
 .top-content-container{
     display: flex;    
-    justify-content:center;
+    justify-content:space-between;
     background-color: #1F2937;        
     color:#F9FAF8; 
     padding-left: 50px;
-    padding-right: 50px         
+    padding-right: 50px;      
+    padding-bottom: 50px;
 }
+
 
 .row-container-2-header h3{
     size: 36px;
     font-weight: bolder;
     color:#1F2937;
-};
-
-.top-left-content{
-    color:#3882F6
 }
 
 .button-sign-up{
@@ -60,7 +59,7 @@ body{
 }
 
 .top-right-content{
-
+    padding-left: 50px;
 }
 
 .row-container-2{
@@ -72,28 +71,45 @@ body{
 .row-container-3{
     background-color: #E5E7EB;
     font-style: italic;
-    
+    padding: 25px;
+    padding-left: 100px;    
+    padding-right: 100px;    
 }
+
+.quote-attrib{
+    font-weight: bolder;
+    text-align: right;
+    font-style: normal;
+}
+
 
 .row-container-4{
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .message-box{
     flex-direction: column;
     background-color: #3882F6;
     color: white;
+    margin:25px;
+    padding: 25px;
 }
 
-.message-box-text{
-    display:flex;
+
+.message-box-text{  
+    display: flex; 
+    flex-direction: row;
 }
+
 
 .message-box-button{
     display:flex;
     background-color: #3882F6;
 }
+
+
+
 
 .footer{
     display: flex;
