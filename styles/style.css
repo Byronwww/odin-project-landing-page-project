@@ -25,6 +25,19 @@ body{
     display: flex;     
 }
 
+.top-right-image{
+    display: flex;  
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    border-color: #3882F6;
+    border-style: solid; 
+    border-radius: 10px; 
+}
+
+
 .header-right-links a{
     size: 18px;
     text-decoration: none;
@@ -59,9 +72,6 @@ body{
     font-weight: 800;
 }
 
-.top-right-content{
-    padding-left: 50px;
-}
 
 .row-container-2{
     display: flex;
